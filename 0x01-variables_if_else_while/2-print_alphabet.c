@@ -19,7 +19,7 @@ int main(void)
 	{
 		putchar(low);
 	}
-		printf('\n');
+		putchar('\n');
 
 	return (0);
 }
