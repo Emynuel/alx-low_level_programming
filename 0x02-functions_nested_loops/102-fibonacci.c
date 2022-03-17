@@ -14,7 +14,7 @@ int main(void)
 	long int a = 0, b = 1, next;
 
 
-	while (i < 60)
+	while (i < 50)
 	{
 		next = a + b;
 		a = b;
