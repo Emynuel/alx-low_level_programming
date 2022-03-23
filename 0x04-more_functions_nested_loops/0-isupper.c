@@ -2,15 +2,20 @@
 
 /**
  * _isupper - check for uppercase characters
- * @c: ASCII integer
+ * @c: integer
  * Return: 1 if c is uppercase, otherwise 0
  */
 
 int _isupper(int c)
 {
-	if (c >= 65 && c <= 90)
+	if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
+
+
+	else
+	{
 		return (0);
+	}
 }
